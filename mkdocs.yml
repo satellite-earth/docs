@@ -1,0 +1,42 @@
+site_name: Satellite Developers
+repo_name: satellite-earth
+repo_url: https://github.com/satellite-earth
+edit_uri: ''
+nav:
+  - Home: index.md
+  - Packages:
+    - client: client.md
+    - clock: clock.md
+    - core: core.md
+    - directory: directory.md
+    - epoch: epoch.md
+    - message: message.md
+    - parcel: parcel.md
+    - signal: signal.md
+    - state: state.md
+    - torrent: torrent.md
+    - world: world.md
+    #- media: media.md
+    #- publication: publication.md
+theme:
+  name: material
+  features:
+    - tabs
+  #logo: logo.png
+  #favicon: logo.png
+  palette:
+    scheme: default
+    primary: black
+    accent: indigo
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/UDbqesA
+    - icon: fontawesome/brands/github
+      link: https://github.com/satellite-earth
